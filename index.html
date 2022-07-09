@@ -6,6 +6,7 @@
 -->
 <html>
 <head>
+    
     <title>Muzahid's Website</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -13,17 +14,12 @@
 </head>
 <body id="top">
 
-<!-- Banner -->
-<!--
-    To use a video as your background, set data-video to the name of your video without
-    its extension (eg. images/banner). Your video must be available in both .mp4 and .webm
-    formats to work correctly.
--->
+
 <section id="banner" data-video="images/banner">
     <div class="inner">
         <header>
             <div class="i-left-wrapper">
-                <h2 class="i-intro">Hello. My name is </h2> <br>
+                <h2 class="i-intro">Hello. I am </h2> <br>
                 <h1 class="i-name">Muzahid Oly</h1> <br>
                 <br> 
                 <div class="i-title">
@@ -45,7 +41,7 @@
                 Looking for a position where I can learn new skills, build strong and lasting
                 relationships, and grow as a software developer.
                 </p>
-                <h2> <a href="Resume 3.pdf" target="blank">Resume</a></h2><br/><br/>
+                <h2> <a href="Resume 5.pdf" target="blank">Resume</a></h2><br/><br/>
             </div>
         </header>
         <a href="#about" class="more">Learn More</a>
@@ -68,12 +64,12 @@
     <div class="a-right">
       <h1 class="a-title">About Me</h1>
       <p class="a-sub">
-        "It is a shame for man to to grow old without witnessing the potentials he possess."
+        "It is a shame for man to to grow old without witnessing the potentials he possess"
       </p>
       <p class="a-desc">
         Hi! Muzahid here. I am a junior at Wayne State University studying Computer Science. I am fluent in Java, C++, and Python and still picking up new languages. Currently, I am learning languages related to web and software development.
         I am a very passionate learner who loves to try new and difficult problems, always pushing the boundaries of what I know. Working with others in order to create something revolutionary and solving difficult issues excites me.
-        I possess strong communicative and cross-functional skills and stop at nothing to solve the issue at hand
+        I possess strong communicative and cross-functional skills and stop at nothing to solve the issue at hand.
       </p>
       <a href="#main" class="more">Learn More</a>
      
@@ -90,7 +86,17 @@
         <!-- Boxes -->
         <div class="thumbnails">
 
-            
+            <div class="box">
+                <a class="image fit"href="https://github.com/muzahidOly/socialmedia" target="blank"><img src="images/social.jpg" alt=""/></a>
+                <div class="inner">
+                    <h3>Social Media</h3>
+                    <p>Full Stack social media application which uses React for front-end, Node.js as runtime environment, 
+                        Express to create a local web server, and MongoDB as the web database. This application is capable 
+                        of C.R.U.D functionality- creating new posts, reading information from web database, updating details
+                         on a post, liking and disliking them, and deleting entire posts.</p> <br><br><br>
+                    <a class="button style3 fit"href="https://github.com/muzahidOly/socialmedia" target="=blank">Open GitHub</a>
+                </div>
+            </div>
 
             <div class="box">
                 <a class="image fit"  href="https://github.com/muzahidOly/HospitalBilling" target="blank"><img src="images/pexels-photo-8410648.jpeg" alt=""/></a>
@@ -99,10 +105,27 @@
                     <p>Java-based program which collects data on hospital patients, such as the doctor information, total bill,
                         and patients' personal details. The data is stored in their respective repository and inserted onto an
                         organized text file for reading and writing, making it optimal for fast and easy data documentation.</p>
-                        <br><br><br> <br>
-                    <a class="button fit" href="https://github.com/muzahidOly/HospitalBilling" target="blank">Open Project</a>
+                        <br><br><br><br><br>
+                    <a class="button fit" href="https://github.com/muzahidOly/HospitalBilling" target="blank">Open GitHub</a>
                 </div>
             </div>
+
+
+            <div class="box">
+                <a class="image fit"  href="https://github.com/muzahidOly/gasComparison" target="blank"><img src="images/gas.jpg" alt=""/></a>
+                <div class="inner">
+                    <h3>Gas Comparison</h3>
+                    <p>Gas prices has gone up and so has the prices of cars! Check out this Python based application for your next vehicle purchase.
+                        With over 25+ comparisons done, this Python based application has influenced numerous costumers on which vehicle is best for
+                         them during these insane gas prices. This program allows you to input information on all sorts of cars and then, using an 
+                         original and efficient algorithm, determines which car will be best suit you based on the cost of car and MPG.
+                          After the program ends, the result and comparison details are recorded as a receipt on a separate file.
+                    </p>
+                    <a class="button  style2 fit" href="https://github.com/muzahidOly/gasComparison" target="blank">Open GitHub</a>
+                </div>
+            </div>
+
+
 
             <div class="box">
                 <a class="image fit"   href="https://github.com/muzahidOly/BankingSystem" target="=blank"><img src="images/banking.jpg" alt=""/></a>
@@ -110,11 +133,17 @@
                     <h3>Banking System</h3>
                     <p>C++-based program which utilizes APIs and libraries to create a banking system that allows users to
                         deposit, withdraw, and transfer currency between multiple checking and saving accounts.
-                        <br><br><br><br><br><br> <br>
+                        <br><br><br><br><br>
                     </p>
-                    <a class="button style2 fit" href="https://github.com/muzahidOly/BankingSystem" target="=blank">Open Project</a>
+                    <a class="button style4 fit" href="https://github.com/muzahidOly/BankingSystem" target="=blank">Open GitHub</a>
                 </div>
             </div>
+
+            
+
+
+
+
             <div class="box">
                 <a class="image fit"  href="https://github.com/muzahidOly/clickcounter" target="blank"><img src="images/count.jpg" alt=""/></a>
                 <div class="inner">
@@ -123,19 +152,28 @@
                         This application is quite simple; it counts the number of times you've increment and decrement the counter. 
                         There is also the ability to reset the counter. To put it simple, HTML and CSS was used to the body of the website,
                          Apache helped me connect to a local server, PHP was used to connect the server to the database, and the database for the counter was used in MySQL</p>
-                    <a class="button fit" href="https://github.com/muzahidOly/clickcounter" target="blank">Open Project</a>
+                    <a class="button  style2 fit" href="https://github.com/muzahidOly/clickcounter" target="blank">Open GitHub</a>
                 </div>
             </div>
 
 
             <div class="box">
-                <a class="image fit"href="https://github.com/muzahidOly/EmailArchive" target="=blank"><img src="images/email.jpg" alt=""/></a>
+                <a class="image fit"href="https://github.com/muzahidOly/EmailArchive" target="blank"><img src="images/email.jpg" alt=""/></a>
                 <div class="inner">
                     <h3>Email Archive</h3>
                     <p>Python-based program that excels at collecting email addresses and personal information, using
                         dictionaries and other data structures, and storing them in a file. Information can be easily accessed and
                         manipulated through the program, making it ideal for the user interface.</p>
-                    <a class="button style3 fit"href="https://github.com/muzahidOly/EmailArchive" target="=blank">Open Project</a>
+                    <a class="button  fit"href="https://github.com/muzahidOly/EmailArchive" target="=blank">Open GitHub</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <a class="image fit"href="https://github.com/muzahidOly/vowelchecker" target="blank"><img src="images/word.jpg" alt=""/></a>
+                <div class="inner">
+                    <h3>Vowel Checker</h3>
+                    <p>Web application which uses HTML, CSS, and JavaScript to check whether a string contains a vowel</p>
+                    <a class="button style3 fit"href="https://github.com/muzahidOly/vowelchecker" target="=blank">Open GitHub</a>
                 </div>
             </div>
 
@@ -151,8 +189,8 @@
 <!-- Footer -->
 <footer id="footer">
     <div class="inner">
-        <h2>Thank you for viewing my website.</h2>
-        <p> Feel free to contact me using my socials below. </p>
+        <h2>Thank you for viewing my website</h2>
+        <p> Feel free to contact me using my socials below </p>
 
         <ul class="icons">
             <li><a href="https://twitter.com/MuzahidO" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a>
